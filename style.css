@@ -60,11 +60,15 @@ img {
     overflow: hidden;
 }
 
+.card:hover .details {
+    transform: translateY(0);
+}
+
 .details {
     padding: 40px;
-    transition: 0.5s;
+    transition: 0.3s;
     width: 100%;
-    transform: translateY(120px);
+    transform: translateY(130px);
 
 }
 
@@ -121,6 +125,7 @@ img {
 }
 
 button {
+    cursor: pointer;
     outline: none;
     border: none;
     font-weight: 500;
